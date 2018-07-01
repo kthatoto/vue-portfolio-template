@@ -1,21 +1,26 @@
 # vue-portfolio-template
+## 準備
+- `vue init webpack <appname>` でアプリケーションの初期化
+  - ex) `vue init webpack my-vue-portfolio`
+  - 設定
 
-> A Vue.js project
+|question|answer|note|
+|---|---|---|
+|`? Project name`|自由に決めてください！||
+|`? Project description`|`<Enter>`|デフォルト|
+|`? Author`|`<Enter>`|ローカルのgitconfigに設定されてるものがデフォルトで出るはず|
+|`? Vue build`|`<Enter>`|一番上の選択肢|
+|`? Install vue-router`|`Y`|Enter押せば`Y`になるよ|
+|`? Use ESLint to lint your code?`|`Y`|Enter押せば`Y`になるよ|
+|`? Pick an ESLint preset`|`<Enter>`|一番上の選択肢|
+|`? Set up unit tests`|`n`|`n`をタイプして`<Enter>`!|
+|`? Setup e2e tests with Nightwatch?`|`n`|`n`をタイプして`<Enter>`!|
+|`? Should we run 'npm install' for you after...`|`npm` or `yarn`|矢印キーでどっちか選んでください。僕は`yarn`の方が好きです|
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- sass用のモジュールをインストール(`npm`と`yarn`どっちか)
+  - `npm install --save node-sass sass-loader`
+  - `yarn add node-sass sass-loader`
+- 以下のレポジトリから二つのフォルダをダウンロード
+  - https://github.com/kthatoto/vue-portfolio-template-assets
+  - `assets`を自分で作成したアプリケーションの`./src/assets`と交換
+  - `components`を自分で作成したアプリケーションの`./src/components`と交換
