@@ -10,7 +10,7 @@
       </ul>
     </div>
     <ul class="works__list">
-      <li v-for="(work, i) in works" class="works__item" @click="displayWork(i)">
+      <li v-for="(work, i) in works" class="works__item">
         <h2>{{ work.title }}</h2>
       </li>
     </ul>
@@ -38,11 +38,6 @@ export default {
           skills: ['html5.png', 'css3.png', 'sass.png', 'vue.png']
         }
       ]
-    }
-  },
-  methods: {
-    displayWork (i) {
-      this.workIndex = i
     }
   }
 }
