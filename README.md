@@ -31,7 +31,7 @@
 - rootテンプレートの編集
   - `./src/components/Menu.vue`をインポート
 <img src="./tmp/appvue-before.png" align="left" width="420">
-<img src="./tmp/appvue-after.png" align="right" width="420">
+<img src="./tmp/appvue-after.png" width="420">
 
 ### ./src/router/index.js
 - `/`に`Top`コンポーネント、`/works`に`Works`コンポーネントを割り当てる
