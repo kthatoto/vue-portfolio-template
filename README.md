@@ -26,9 +26,14 @@
   - `components`を自分で作成したアプリケーションの`./src/components`と交換
 
 ## ハンズオン
-- `App.vue`
+- `./src/App.vue`
   - 共通スタイルの編集
   - rootテンプレートの編集
-    - `Menu.vue`をインポート
-<img src="./readme_images/appvue-before.png" align="left" width="420">
-<img src="./readme_images/appvue-after.png" align="left" width="420">
+    - `./src/components/Menu.vue`をインポート
+<img src="./tmp/appvue-before.png" align="left" width="420">
+<img src="./tmp/appvue-after.png" align="left" width="420">
+
+- `./src/router/index.js`
+  - `/`に`Top`コンポーネント、`/works`に`Works`コンポーネントを割り当てる
+<img src="./tmp/router-before.png" align="left" width="420">
+<img src="./tmp/router-after.png" align="left" width="420">
