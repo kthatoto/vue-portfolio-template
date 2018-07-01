@@ -25,4 +25,14 @@
   - `assets`を自分で作成したアプリケーションの`./src/assets`と交換
   - `components`を自分で作成したアプリケーションの`./src/components`と交換
 
-### 準備完了!!
+## ハンズオン
+- `App.vue`
+  - 共通スタイルの編集
+  - rootテンプレートの編集
+    - `Menu.vue`をインポート
+<div style="width:50%;float:left;">
+  <img src="./readme_images/appvue-before.png" style="width:100%;">
+</div>
+<div style="width:50%;float:right;">
+  <img src="./readme_images/appvue-after.png" style="width:100%;">
+</div>
