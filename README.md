@@ -24,6 +24,7 @@
   - https://github.com/kthatoto/vue-portfolio-template-assets
   - `assets`を自分で作成したアプリケーションの`./src/assets`と交換
   - `components`を自分で作成したアプリケーションの`./src/components`と交換
+- `yarn run dev`して`0.0.0.0:8080`にアクセス！
 
 ## ハンズオン
 ### ./src/App.vue
@@ -37,3 +38,8 @@
 - `/`に`Top`コンポーネント、`/works`に`Works`コンポーネントを割り当てる
 <img src="./tmp/router-before.png" align="left" width="420">
 <img src="./tmp/router-after.png" width="420">
+
+## 課題
+- Aboutページを追加してみる
+- Worksページで、Workの表示を切り替えることができるようにする
+- waringをなくしてみる
