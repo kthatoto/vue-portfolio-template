@@ -36,4 +36,4 @@
 ### ./src/router/index.js
 - `/`に`Top`コンポーネント、`/works`に`Works`コンポーネントを割り当てる
 <img src="./tmp/router-before.png" align="left" width="420">
-<img src="./tmp/router-after.png" align="right" width="420">
+<img src="./tmp/router-after.png" width="420">
