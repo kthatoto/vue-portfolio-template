@@ -24,3 +24,5 @@
   - https://github.com/kthatoto/vue-portfolio-template-assets
   - `assets`を自分で作成したアプリケーションの`./src/assets`と交換
   - `components`を自分で作成したアプリケーションの`./src/components`と交換
+
+### 準備完了!!
