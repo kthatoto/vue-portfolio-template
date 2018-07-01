@@ -30,5 +30,5 @@
   - 共通スタイルの編集
   - rootテンプレートの編集
     - `Menu.vue`をインポート
-<img src="./readme_images/appvue-before.png" align="left" width="430">
-<img src="./readme_images/appvue-after.png" align="left" width="430">
+<img src="./readme_images/appvue-before.png" align="left" width="420">
+<img src="./readme_images/appvue-after.png" align="left" width="420">
